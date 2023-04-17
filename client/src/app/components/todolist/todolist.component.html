@@ -1,0 +1,7 @@
+<div class="bg-white rounded shadow p-6 m-4 w-full lg:max-w-lg">
+    <h1 class="text-grey-darkest">Create todo</h1>
+    <app-formtodo></app-formtodo>
+
+    <app-todoitem *ngFor="let item of todos" [todoItem]="item">
+    </app-todoitem>
+</div>

@@ -1,0 +1,5 @@
+<div class="flex mb-4 items-center">
+    <p [ngClass]="todoItem.completed ? 'w-full text-green-600 line-through' : 'w-full text-grey-darkest'">{{ todoItem.title }}</p>
+    <button class="flex-no-shrink text-green-500 p-2 ml-4 mr-2 border-2 rounded hover:text-white text-green border-green-500 hover:bg-green-500">Done</button>
+    <button class="flex-no-shrink p-2 ml-2 text-red-500 border-2 rounded text-red border-red-500 hover:text-white hover:bg-red-500">Remove</button>
+</div>
